@@ -1,8 +1,8 @@
 div {
     font-family: Tahoma,sans-serif,Arial;
     opacity: 0.8;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 h1 {
@@ -26,7 +26,7 @@ img {
     border-radius: 5%; /*rounds corners, 50% makes a circle*/
 }
 
-a:link, a:visited{
+.fancy:link, .fancy:visited{
     text-decoration: none;
     background-color: #f44336;
     border-radius: 12px;
@@ -37,7 +37,7 @@ a:link, a:visited{
     font-size: 16px;
 }
 
-a:hover,a:active{
+.fancy:hover,.fancy:active{
     background-color: #D2190B;
     color:white;
     cursor: pointer;
